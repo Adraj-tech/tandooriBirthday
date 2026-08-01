@@ -2,7 +2,7 @@ const countdownElement = document.getElementById("countdown");
     const message = document.getElementById("birthday-message");
     const balloons = document.getElementById("balloons");
 
-    const targetDate = new Date("August 21, 2025 00:00:00").getTime();
+    const targetDate = new Date("August 21, 2026 00:00:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
